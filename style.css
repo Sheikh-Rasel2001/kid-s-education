@@ -27,6 +27,7 @@
 /* menubar section design */
 .header{
     margin-top: 50px;
+    margin-bottom: 80px;
 }
 .menuBar{
     justify-content: space-between;
@@ -37,11 +38,11 @@
     gap: 30px;
 }
 .logo{
-    gap: 20px;
+    gap: 10px;
     align-items: center;
 }
 .logoTitle{
-    font-size: 2rem;
+    font-size: 1.9rem;
     font-weight: 700;
     color: black;
 }
@@ -102,6 +103,108 @@ a.admission{
 .enroll{
     background-color: rgb(17, 17, 17);
 }
+.banner-image img{
+    width: 100%;
+}
+/* curriculum section design */
+.curriculum{
+    background-image: url(images/bg.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.curriculum-title{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.curriculum-card{
+    justify-content: space-evenly;
+    margin-bottom: 80px;
+}
+.card{
+    text-align: center;
+    padding: 30px;
+    border: 2px solid black;
+    max-width: 370px;
+}
+
+.card1{
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.card2{
+    border: 0.94px solid rgb(255, 244, 220);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.card3{
+    border: 0.94px solid rgb(242, 232, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.card-title{
+    font-size: 1.5rem;
+    margin: 20px 0;
+    font-weight: 700;
+    color: rgb(32, 32, 32);
+}
+.card-details{
+    font-size: .9rem;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: justify;
+    text-align-last: center;
+    word-spacing: -1px;
+    margin-bottom: 25px;
+}
+h5.kinder{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: skyblue;
+    
+}
+.h5{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.kinder1{
+    color: rgb(100, 200, 255);
+}
+.kinder2{
+    color: rgb(240, 170, 0);
+}
+.kinder3{
+    color: rgb(135, 0, 255);
+}
+.arrow-btn{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.right{
+    background-color: orange;
+    border: none;
+    /* padding: 10px; */
+    margin-right: 10px;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+.right a{
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 700;
+}
+/* curriculum section end */
+
 
 
 /* responsive design style */
@@ -126,5 +229,13 @@ a.admission{
     .banner-details{
         text-align: center;
         margin-top: 20px;
+    }
+    .curriculum-card{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .arrow-btn{
+        display: none;
     }
 }
