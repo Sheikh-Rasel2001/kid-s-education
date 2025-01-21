@@ -113,6 +113,7 @@ a.admission{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    margin-bottom: 60px;
 }
 .curriculum-title{
     font-size: 2rem;
@@ -123,6 +124,7 @@ a.admission{
 .curriculum-card{
     justify-content: space-evenly;
     margin-bottom: 80px;
+    gap: 30px;
 }
 .card{
     text-align: center;
@@ -204,8 +206,99 @@ h5.kinder{
     font-weight: 700;
 }
 /* curriculum section end */
-
-
+/* stories section */
+.stories{
+    
+    margin: 0 auto;
+    background: url(images/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    margin-bottom: 100px;
+}
+.story-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+#box-1{
+    grid-row: span 2;
+}
+.story-title{
+    font-size: 2.9rem;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.story-card5{
+   border-radius: 16px;
+   border: 1px solid rgb(214, 211, 211);
+   background-color: #fff;
+}
+.story-card5 img{
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.date{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    background: rgb(60, 216, 232);
+    padding: 7px 15px;
+    border: none;
+    border-radius: 50px;
+    position: relative;
+    bottom: 20px;
+    left: 35px;
+}
+.story-details{
+    padding: 30px;
+}
+.story-card-title{
+    font-size: 1.5rem;
+    padding: 15px 0px 25px 0px;
+    line-height: 26px;
+    font-weight: 600;
+}
+.story-card-details{
+    color: rgb(102, 102, 102);
+    font-size: 1rem;
+    line-height: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    
+}
+.story-card{
+    background-color: #fff;
+    border-radius: 16px;
+}
+.carry{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    background: rgb(60, 216, 232);
+    padding: 7px 15px;
+    border: none;
+    border-radius: 50px;
+    position: relative;
+    bottom: 20px;
+    left: 35px;
+}
+.card-desc{
+    text-align: center;
+    line-height: 28px;
+    padding: 10px;
+}
+.story-card img{
+    width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.view{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
 
 /* responsive design style */
 @media screen and (max-width: 576px) {
@@ -225,6 +318,8 @@ h5.kinder{
     .banner{
         flex-direction: column-reverse;
         align-items: center;
+        padding-left: 30px;
+        padding-right: 30px;
     }
     .banner-details{
         text-align: center;
@@ -234,8 +329,17 @@ h5.kinder{
         flex-direction: column;
         align-items: center;
         gap: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
     .arrow-btn{
         display: none;
+    }
+    #box-1{
+        display: none;
+    }
+    .story-content{
+        padding: 20px;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
