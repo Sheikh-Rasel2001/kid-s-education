@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Quicksand", serif;
+}
+.all-content{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* shared style */
+.display-flex{
+    display: flex;
+}
+.primary-btn{
+    border: none;
+    font-size: 1.25rem;
+    padding: 10px 30px;
+    background-color: rgb(254, 163, 1);
+    color: #fff;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+/* menubar section design */
+.header{
+    margin-top: 50px;
+}
+.menuBar{
+    justify-content: space-between;
+    align-items: center;
+}
+.navBar ul{
+    gap: 30px;
+}
+.logo{
+    gap: 20px;
+    align-items: center;
+}
+.logoTitle{
+    font-size: 2rem;
+    font-weight: 700;
+    color: black;
+}
+.navBar ul li a{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+a.Home{
+    color: orange;
+}
+a.about{
+    color: skyblue;
+}
+a.facilities{
+    color: rgba(5, 212, 223, 1);
+}
+a.admission{
+    color: rgba(93, 88, 239, 1);
+}
+.toggle-btn{
+    display: none;
+}
+.toggle-btn i{
+    font-size: 1.75rem;
+    color: #000;
+    font-weight: 700;
+}
+
+
+
+/* responsive design style */
+@media screen and (max-width: 576px) {
+    .contact, .navBar{
+        display: none;
+    }
+    .toggle-btn{
+        display: block;
+    }
+    .logo{
+        margin-bottom: 20px;
+    }
+    .menuBar{
+        padding: 10px 20px;
+        border-bottom: 1px solid orange;
+    }
+}
