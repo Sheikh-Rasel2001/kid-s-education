@@ -31,6 +31,7 @@
 .menuBar{
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 80px;
 }
 .navBar ul{
     gap: 30px;
@@ -68,7 +69,39 @@ a.admission{
     color: #000;
     font-weight: 700;
 }
-
+/* banner section design */
+.banner-details{
+    max-width: 648px;
+}
+.banner{
+    /* gap: 315px; */
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-title{
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.embar{
+    color: rgb(254, 163, 1);
+}
+.vision{
+    color: rgb(1, 172, 253);
+}
+.banner-description{
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 26px;
+    color: rgb(17, 17, 17);
+    margin-bottom: 20px;
+}
+.enroll a{
+    color: #fff;
+}
+.enroll{
+    background-color: rgb(17, 17, 17);
+}
 
 
 /* responsive design style */
@@ -85,5 +118,13 @@ a.admission{
     .menuBar{
         padding: 10px 20px;
         border-bottom: 1px solid orange;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .banner-details{
+        text-align: center;
+        margin-top: 20px;
     }
 }
