@@ -342,4 +342,16 @@ h5.kinder{
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
     }
+    .carry{
+        font-size: 0.7rem;
+        font-weight: 500;
+        color: #fff;
+        background: rgb(60, 216, 232);
+        padding: 5px 10px;
+        border: none;
+        border-radius: 50px;
+        position: relative;
+        bottom: 20px;
+        left: 15px;
+    }
 }
