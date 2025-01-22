@@ -25,6 +25,10 @@
 }
 
 /* menubar section design */
+.bg-size{
+    max-width: 1160px;
+    margin: 0 auto;
+}
 .header{
     margin-top: 50px;
     margin-bottom: 80px;
