@@ -288,6 +288,7 @@ h5.kinder{
     text-align: center;
     line-height: 28px;
     padding: 10px;
+    font-size: 1rem;
 }
 .story-card img{
     width: 100%;
@@ -341,6 +342,7 @@ h5.kinder{
     .story-content{
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
+        padding: 10px;
     }
     .carry{
         font-size: 0.7rem;
@@ -351,7 +353,7 @@ h5.kinder{
         border: none;
         border-radius: 50px;
         position: relative;
-        bottom: 20px;
-        left: 15px;
+        bottom: 18px;
+        left: 10px;
     }
 }
