@@ -240,7 +240,7 @@ h5.kinder{
     border-top-right-radius: 16px;
 }
 .date{
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 600;
     color: #fff;
     background: rgb(60, 216, 232);
@@ -273,7 +273,7 @@ h5.kinder{
     border-radius: 16px;
 }
 .carry{
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 600;
     color: #fff;
     background: rgb(60, 216, 232);
@@ -282,7 +282,7 @@ h5.kinder{
     border-radius: 50px;
     position: relative;
     bottom: 20px;
-    left: 35px;
+    left: 30px;
 }
 .card-desc{
     text-align: center;
@@ -339,7 +339,7 @@ h5.kinder{
         display: none;
     }
     .story-content{
-        padding: 20px;
         grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
     }
 }
